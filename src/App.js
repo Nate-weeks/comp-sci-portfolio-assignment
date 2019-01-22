@@ -59,6 +59,15 @@ class App extends Component {
       create-react-app </a>and deployed to heroku.  I followed this guide to deploy it:
       <a href="https://blog.heroku.com/deploying-react-with-zero-configuration">  Deploying
       React with Zero Configuration</a> </p>
+      <a href="https://github.com/Nate-weeks/pig-latin-translator">Pig-latin translator</a>
+      <p>This is a firefox plugin I made with a group in the coding workshop that translates
+      any page on the internet into pig-latin.  We used a recursive javascript function
+      to select and alter all the text elements on the page. That function makes a fetch
+      call to a flask server I hosted on a linnode at <a href= "http://leslienate.tech:81/piglatin">
+      http://leslienate.tech:81/piglatin</a> that takes plaintext and outputs pig-latin.
+      This was necessary because we wrote the translation program in python and couldn't
+      integrate that into the plugin code.</p>
+
       <p>Here's a button that changes the color to a random rainbow color just to prove
       I'm using javascript!</p>
       <button onClick={this.onClick}>Rainbow colors</button>
